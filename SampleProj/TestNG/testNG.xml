@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Test Suite" parallel="false">
+	<test name="CCM-FaaS" parallel="methods" thread-count="1">
+		<classes>
+			<class name="SampleProj.src.main.java.samplePackage.SampleClass.java">
+				<methods>
+					<include name="abc"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
